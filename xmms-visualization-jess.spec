@@ -5,8 +5,6 @@ Version:	2.0.0
 Release:	2
 License:	GPL
 Group:		X11/Applications/Multimedia
-Group(de):	X11/Applikationen/Multimedia
-Group(pl):	X11/Aplikacje/Multimedia
 Source0:	http://arquier.free.fr/jess-%{version}.tar.gz
 Patch0:		%{name}-usleep.patch
 URL:		http://arquier.free.fr/
