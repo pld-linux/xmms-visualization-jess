@@ -33,12 +33,12 @@ Wtyczka rysuj±ca linie, krzywe oraz grafikê 3D w koordynacji z muzyk±.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/%{xmms_visualization_plugindir}
+install -d $RPM_BUILD_ROOT%{xmms_visualization_plugindir}
 
 ./libtool install libjess.la \
-	$RPM_BUILD_ROOT/%{xmms_visualization_plugindir}/libjess.la
+	$RPM_BUILD_ROOT%{xmms_visualization_plugindir}/libjess.la
 install .libs/libjess.so.*.*.* \
-	$RPM_BUILD_ROOT/%{xmms_visualization_plugindir}/libjess.so
+	$RPM_BUILD_ROOT%{xmms_visualization_plugindir}/libjess.so
 
 %clean
 rm -rf $RPM_BUILD_ROOT
