@@ -20,7 +20,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_mandir		%{_prefix}/man
 
 %description
-Plugin which draw lines, curves, and 3D grid moving in concordance with the music.
+Plugin which draw lines, curves, and 3D grid moving in concordance
+with the music.
 
 %description -l pl
 Wtyczka rysuj±ce linie, krzywe oraz grafikê 3D w koordynacji z muzyk±.
