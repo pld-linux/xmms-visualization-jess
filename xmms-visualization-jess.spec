@@ -1,5 +1,5 @@
-Summary:	Plugin which draws graphic.
-Summary(pl):	Plugin wizualizacji graficznej.
+Summary:	Plugin which draws graphics
+Summary(pl):	Plugin wizualizacji graficznej
 Name:		xmms-visualization-jess
 Version:	2.0.0
 Release:	2
@@ -25,7 +25,7 @@ Plugin which draw lines, curves, and 3D grid moving in concordance
 with the music.
 
 %description -l pl
-Wtyczka rysuj±ce linie, krzywe oraz grafikê 3D w koordynacji z muzyk±.
+Wtyczka rysuj±ca linie, krzywe oraz grafikê 3D w koordynacji z muzyk±.
 
 %prep
 %setup -q -n jess-%{version}
