@@ -14,8 +14,6 @@ BuildRequires:	glib-devel >= 1.2.2
 BuildRequires:	SDL-devel >= 1.1.8
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 Plugin which draw lines, curves, and 3D grid moving in concordance
