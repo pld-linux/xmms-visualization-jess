@@ -2,12 +2,13 @@ Summary:	Plugin which draws graphic.
 Summary(pl):	Plugin wizualizacji graficznej.
 Name:		xmms-visualization-jess
 Version:	2.0.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Multimedia
 Group(de):	X11/Applikationen/Multimedia
 Group(pl):	X11/Aplikacje/Multimedia
 Source0:	http://arquier.free.fr/jess-%{version}.tar.gz
+Patch0:		%{name}-usleep.patch
 URL:		http://arquier.free.fr/
 Requires:	xmms
 BuildRequires:	xmms-devel >= 1.2.3
@@ -28,6 +29,7 @@ Wtyczka rysuj±ce linie, krzywe oraz grafikê 3D w koordynacji z muzyk±.
 
 %prep
 %setup -q -n jess-%{version}
+%patch0 -p1
 
 %build
 %{__make} \
