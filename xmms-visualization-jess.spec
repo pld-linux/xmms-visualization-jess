@@ -43,7 +43,7 @@ install -d $RPM_BUILD_ROOT/`%{_bindir}/xmms-config --visualization-plugin-dir`/
 install .libs/libjess.so.*.*.* \
 	$RPM_BUILD_ROOT/`%{_bindir}/xmms-config	--visualization-plugin-dir`/libjess.so
 
-gzip -9nf AUTHORS NEWS README ChangeLog 
+gzip -9nf AUTHORS NEWS README ChangeLog
 
 %clean
 rm -rf $RPM_BUILD_ROOT
