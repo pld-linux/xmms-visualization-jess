@@ -2,7 +2,7 @@ Summary:	Plugin which draws graphics
 Summary(pl):	Plugin wizualizacji graficznej
 Name:		xmms-visualization-jess
 Version:	2.0.0
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	http://arquier.free.fr/jess-%{version}.tar.gz
@@ -42,13 +42,11 @@ install -d $RPM_BUILD_ROOT/`%{_bindir}/xmms-config --visualization-plugin-dir`/
 install .libs/libjess.so.*.*.* \
 	$RPM_BUILD_ROOT/`%{_bindir}/xmms-config	--visualization-plugin-dir`/libjess.so
 
-gzip -9nf AUTHORS NEWS README ChangeLog
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc AUTHORS NEWS README ChangeLog
 %attr(755,root,root) %{_libdir}/xmms/*/*.so
 %attr(755,root,root) %{_libdir}/xmms/*/*.la
