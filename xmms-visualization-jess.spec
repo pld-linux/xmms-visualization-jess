@@ -6,6 +6,7 @@ Release:	3
 License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	http://arquier.free.fr/jess-%{version}.tar.gz
+# Source0-md5:	59f2586b960b74e4259f8ca77d416a43
 Patch0:		%{name}-usleep.patch
 URL:		http://arquier.free.fr/
 Requires:	xmms
