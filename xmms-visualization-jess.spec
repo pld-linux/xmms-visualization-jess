@@ -11,7 +11,6 @@ URL:		http://arquier.free.fr/
 Requires:	xmms
 BuildRequires:	xmms-devel >= 1.2.3
 BuildRequires:	glib-devel >= 1.2.2
-BuildRequires:	gtk+-devel >= 1.2.2
 BuildRequires:	SDL-devel >= 1.1.8
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
