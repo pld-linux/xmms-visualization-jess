@@ -31,7 +31,7 @@ Wtyczka rysuj±ce linie, krzywe oraz grafikê 3D w koordynacji z muzyk±.
 
 %build
 %{__make} \
-	COMMON_CFLAGS="%{?debug:-O0 -g}%{!?debug:$RPM_OPT_FLAGS} \
+	COMMON_CFLAGS="%{rpmcflags} \
 	-ffast-math `glib-config --cflags`"
 
 %install
