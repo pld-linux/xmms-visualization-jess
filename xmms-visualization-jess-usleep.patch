@@ -1,0 +1,12 @@
+diff -u jess-2.0.0/jess.c jess-2.0.0-AX/jess.c
+--- jess-2.0.0/jess.c	Mon Mar 19 20:51:45 2001
++++ jess-2.0.0-AX/jess.c	Wed Dec 12 15:03:24 2001
+@@ -23,7 +23,7 @@
+ #include "draw.h"
+ #include "misc.h"
+ 
+-void usleep (unsigned long usec); 
++//void usleep (unsigned long usec); 
+ int nice(int inc);  
+ /* void *keybtest (void); */
+ void *renderer (void);
