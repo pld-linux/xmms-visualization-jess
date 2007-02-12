@@ -1,5 +1,5 @@
 Summary:	Plugin which draws graphics
-Summary(pl.UTF-8):   Plugin wizualizacji graficznej
+Summary(pl.UTF-8):	Plugin wizualizacji graficznej
 Name:		xmms-visualization-jess
 Version:	2.0.0
 Release:	4
